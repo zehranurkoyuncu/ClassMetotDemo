@@ -6,12 +6,12 @@ namespace ClassMetotDemo
 {
     class CustomerManager
     {
-        public void Ekle (Customer customer) 
+        public void Add (Customer customer) 
         {
             Console.WriteLine("Müşteri Eklendi. : " + customer.NameSurname + " | " + "İşleminize Devam Edebilirsiniz.");
         }
 
-        public void Ekle2 (Customer customer) 
+        public void Add2 (Customer customer) 
         {
             Console.WriteLine("Müşteri Silindi. : " + customer.NameSurname + " | " + "Çıkış");
         }
